@@ -1,0 +1,24 @@
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    margin: 4px 10px;
+}
+
+.head_line{
+    width: fit-content;
+    text-align: center;
+    
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+
+.head_line:hover{
+    color:white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(227, 30, 30);
+    cursor: pointer;
+}

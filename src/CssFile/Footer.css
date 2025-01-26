@@ -1,0 +1,9 @@
+.linkedin:hover,.devfolio:hover{
+    color:blue;
+}
+/* .:hoverdevfolio{
+    color: pink;
+} */
+.github:hover{
+    color:rgb(39, 36, 36);
+}

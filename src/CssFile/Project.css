@@ -1,0 +1,63 @@
+/* 
+.marque_tag{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 2px;
+} */
+
+.margin_flex{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.text_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5px;
+
+} 
+.text_wrap_text{
+    margin: 2px 4px;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+.head_line{
+    width: fit-content;
+    text-align: center;
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+}
+.head_line:hover{
+    color:white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(227, 30, 30);
+    cursor: pointer;
+}
+
+.btn_box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.btn{
+    text-align: center;
+    width: fit-content;
+}
+
+
+@media only screen and (min-width:0px) and (max-width:628px) {
+.margin_flex{
+    flex-wrap: wrap;
+}
+}

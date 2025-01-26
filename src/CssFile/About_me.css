@@ -1,0 +1,95 @@
+.main_about_me{
+    
+    width: 100vw;
+    height: 440px;
+    display: flex;
+}
+
+.left_about{
+width: 40%;
+display: block;
+height: 440px;
+}
+
+.head_line{
+    width: fit-content;
+    text-align: center;
+    
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+
+.head_line:hover{
+    color:white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(227, 30, 30);
+    cursor: pointer;
+}
+
+.img_about{
+width: 100%;
+height: 100%;
+}
+
+.right_about{
+width: 58%;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 5px;
+
+}
+
+
+.about_me:hover{
+    border-bottom: 1px solid grey;
+}
+.text_info{
+    width: 95%;
+    padding: 3px;
+    letter-spacing: 1.5px;
+}
+.toggle_info{
+    margin-top: 10px;
+    flex: 1;
+}
+.text_info_1{
+font-size: large;
+}
+.text_info_2{
+font-size: large;
+}
+.text_info_3{
+    font-size: large;
+    padding-bottom: 1px;
+}
+
+
+
+@media only screen and (min-width : 0px) and ( max-width : 690px ) {
+    .left_about{
+        display: none;
+    }
+    .right_about{
+        width: 100%;
+        background-image: url('https://res.cloudinary.com/dbc7lgjml/image/upload/v1737875965/About_me_fwermh.gif'); 
+        background-size: 100% 440px;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        
+    }
+    .text_info{
+        font-weight: 500;
+        letter-spacing: 1.5px;
+    }
+    .main_about_me{
+        height: fit-content;
+    }
+
+
+
+}
