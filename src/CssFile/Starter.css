@@ -72,7 +72,7 @@ animation:
     width: 65vw;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;    
     background-image: url('https://res.cloudinary.com/dbc7lgjml/image/upload/v1737875968/frontend_wkbykh.jpg');
     background-repeat: no-repeat;

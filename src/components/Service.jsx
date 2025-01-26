@@ -1,7 +1,7 @@
 import React from "react";
 import Scard from "./Scard";
 import Typography from "@mui/material/Typography";
-import Cer_cards from "./CerCards";
+import CerCards from "./CerCards";
 import { Box } from "@mui/material";
 import "../CssFile/Service.css";
 import "../CssFile/Project.css";
@@ -34,7 +34,7 @@ function Service() {
 
       {/* Development Skills Section */}
       <h4 className="skills_header">Development Skills</h4>
-      <marquee id="scroll_news" behavior="" direction="">
+      <div claasName="marquee" id="scroll_news" behavior="" direction="">
         <Box
           onMouseOver={() => document.getElementById("scroll_news").stop()}
           onMouseOut={() => document.getElementById("scroll_news").start()}
@@ -47,7 +47,7 @@ function Service() {
           <Scard img={imgCss} text="CSS" />
           <Scard img={imgNodeJs} text="Node.js" />
         </Box>
-      </marquee>
+      </div>
 
       {/* Programming Skills Section */}
       <h4 className="skills_header">Programming Skills</h4>
@@ -66,7 +66,7 @@ function Service() {
       {/* Certification Section */}
       <h4 className="skills_header">Certification</h4>
       <Box className="margin_flex">
-        <Cer_cards
+        <CerCards
           name="Introduction to Front End Development"
           link="https://drive.google.com/file/d/1U4Cn9R33tjpoW-KDg9fDcDNA7HYOAHcS/view?usp=drive_link"
           desc={[
@@ -79,19 +79,19 @@ function Service() {
           ]}
           img={cerImg1}
         />
-        <Cer_cards
+        <CerCards
           name="Frontend Web Development with Git and GitHub Skills"
           link="https://drive.google.com/file/d/1Ke20JVOmFUxLhy3eTcZT7rX32Ikz6XjH/view?usp=drive_link"
           desc={["• HTML", "• CSS", "• Javascript", "• React", "• Git", "• GitHub"]}
           img={cerImg2}
         />
-        <Cer_cards
+        <CerCards
           name="Python Certification"
           link="https://drive.google.com/file/d/1sfdGZwVI6zOQlgXMNI8YnqkF72R1UnEK/view?usp=drive_link"
           desc={["• Python", "• VS Code Tool"]}
           img={cerImg3}
         />
-        <Cer_cards
+        <CerCards
           name="CodeCrush 1.0 Hackathon"
           link="https://drive.google.com/file/d/1O2f7IMfjS-FUAifkSQUAahRu3fDfwYql/view?usp=drive_link"
           desc={["• Javascript", "• MySQL", "• Django"]}
