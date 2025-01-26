@@ -1,4 +1,4 @@
-import React, { useEffect, useState,useMemo} from "react";
+import React, { useEffect, useState} from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import "../CssFile/Starter.css";
@@ -14,7 +14,7 @@ function Starter() {
   const Ashok =
     "https://res.cloudinary.com/dbc7lgjml/image/upload/v1737875966/ashok_cafapf.png";
 
-    const words = useMemo(() => ['word1', 'word2', 'word3'], []);
+    const [words] = useState(['Frontend Web Developer']);
     const [currentIndex, setCurrentIndex] = useState(0);
   const [offset, setOffset] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
