@@ -36,8 +36,8 @@ function Service() {
       <h4 className="skills_header">Development Skills</h4>
       <div className="marquee" id="scroll_news" behavior="" direction="">
         <Box
-          onMouseOver={() => document.getElementById("scroll_news").stop()}
-          onMouseOut={() => document.getElementById("scroll_news").start()}
+          // onMouseOver={() => document.getElementById("scroll_news").stop()}
+          // onMouseOut={() => document.getElementById("scroll_news").start()}
           className="whole_box"
         >
           <Scard img={imgReact} text="React" />
@@ -53,8 +53,8 @@ function Service() {
       <h4 className="skills_header">Programming Skills</h4>
       <div className="marquee" id="scroll_new" behavior="" direction="">
         <Box
-          onMouseOver={() => document.getElementById("scroll_new").stop()}
-          onMouseOut={() => document.getElementById("scroll_new").start()}
+          // onMouseOver={() => document.getElementById("scroll_new").stop()}
+          // onMouseOut={() => document.getElementById("scroll_new").start()}
           className="whole_box"
         >
           <Scard img={imgJava} text="Java" />
