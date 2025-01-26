@@ -1,29 +1,23 @@
-Deploying React App to GitHub Pages using GitHub Actions
+# Deploying React App to GitHub Pages using GitHub Actions
 
 This project automates the deployment of a React app to GitHub Pages using GitHub Actions.
 
-Prerequisites
-
+## Prerequisites
 Before proceeding, ensure you have the following:
+- A GitHub repository for your React project.
+- GitHub Actions enabled.
+- Required secrets added to the repository settings:
+  - `REACT_APP_EMAILJS_SERVICE_ID`
+  - `REACT_APP_EMAILJS_TEMPLATE_ID`
+  - `REACT_APP_EMAILJS_USER_ID`
 
-A GitHub repository for your React project.
+## Steps to Deploy
 
-GitHub Actions enabled.
+### 1. Setup GitHub Actions Workflow
 
-Required secrets added to the repository settings:
+Create a `.github/workflows/deploy.yml` file in your project directory with the following content:
 
-REACT_APP_EMAILJS_SERVICE_ID
-
-REACT_APP_EMAILJS_TEMPLATE_ID
-
-REACT_APP_EMAILJS_USER_ID
-
-Steps to Deploy
-
-1. Setup GitHub Actions Workflow
-
-Create a .github/workflows/deploy.yml file in your project directory with the following content:
-
+```yaml
 ame: Deploy to GitHub Pages
 
 on:
@@ -62,37 +56,43 @@ jobs:
           branch: gh-pages
           folder: build
           token: ${{ secrets.GITHUB_TOKEN }}
+```
 
-2. Configure GitHub Pages
+### 2. Configure GitHub Pages
 
-Go to your GitHub repository settings.
+1. Go to your GitHub repository settings.
+2. Navigate to the **Pages** section.
+3. Under the **Branch** section, select `gh-pages`.
+4. Save the settings.
 
-Navigate to the Pages section.
+### 3. Pushing to Main Branch
 
-Under the Branch section, select gh-pages.
+Once the workflow is set up, push your code to the `main` branch:
 
-Save the settings.
-
-3. Pushing to Main Branch
-
-Once the workflow is set up, push your code to the main branch:
-
+```bash
 git add .
 git commit -m "Deploying React app"
 git push origin main
+```
 
-4. Verifying Deployment
+### 4. Verifying Deployment
 
 After the GitHub Action completes successfully, your React app will be available at:
 
+```
 https://<your-github-username>.github.io/<repository-name>
+```
 
-Additional Notes
+## Additional Notes
+- Ensure that your `package.json` has the homepage field set correctly:
 
-Ensure that your package.json has the homepage field set correctly:
-
+```json
 "homepage": "https://<your-github-username>.github.io/<repository-name>/"
+```
 
-If you encounter deployment issues, check the Actions tab in your repository to debug.
+- If you encounter deployment issues, check the **Actions** tab in your repository to debug.
+
+---
 
 Happy Deploying! 🚀
+
