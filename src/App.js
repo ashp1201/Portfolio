@@ -1,5 +1,5 @@
 import "./App.css";
-import About_me from "./components/About_me";
+import AboutMe from "./components/AboutMe";
 import Starter from "./components/Starter";
 import React, { useEffect } from 'react';
 import Projects from "./components/Projects";
@@ -78,7 +78,7 @@ function App() {
       </div>
       <div  id="aboutme" className='reveal fade-bottom'>
 
-      <About_me />
+      <AboutMe />
       </div>
       <div className='reveal fade-bottom' id="projects">
 

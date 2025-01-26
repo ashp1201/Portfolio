@@ -4,10 +4,10 @@
   "private": true,
   "homepage": "https://ashp1201.github.io/portfolio",
   "dependencies": {
-    "@cloudinary/react": "^1.13.1", 
+    "@cloudinary/react": "^1.13.1",
     "@cloudinary/url-gen": "^1.21.0",
     "@emailjs/browser": "^4.4.1",
-    "@emotion/react": "^11.11.1", 
+    "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.0",
     "@mui/material": "^5.15.0",
@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.3.0"
   }
 }

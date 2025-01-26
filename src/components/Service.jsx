@@ -1,7 +1,7 @@
 import React from "react";
 import Scard from "./Scard";
 import Typography from "@mui/material/Typography";
-import Cer_cards from "./Cer_cards";
+import Cer_cards from "./CerCards";
 import { Box } from "@mui/material";
 import "../CssFile/Service.css";
 import "../CssFile/Project.css";

@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
-import "../CssFile/About_me.css";
+import "../CssFile/AboutMe.css";
 
 function About_me() {
   const [alignment, setAlignment] = useState("experience");
