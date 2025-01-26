@@ -34,7 +34,7 @@ function Service() {
 
       {/* Development Skills Section */}
       <h4 className="skills_header">Development Skills</h4>
-      <div claasName="marquee" id="scroll_news" behavior="" direction="">
+      <div className="marquee" id="scroll_news" behavior="" direction="">
         <Box
           onMouseOver={() => document.getElementById("scroll_news").stop()}
           onMouseOut={() => document.getElementById("scroll_news").start()}
@@ -51,7 +51,7 @@ function Service() {
 
       {/* Programming Skills Section */}
       <h4 className="skills_header">Programming Skills</h4>
-      <marquee id="scroll_new" behavior="" direction="">
+      <div className="marquee" id="scroll_new" behavior="" direction="">
         <Box
           onMouseOver={() => document.getElementById("scroll_new").stop()}
           onMouseOut={() => document.getElementById("scroll_new").start()}
@@ -61,7 +61,7 @@ function Service() {
           <Scard img={imgJavascript} text="Javascript" />
           <Scard img={imgC} text="C" />
         </Box>
-      </marquee>
+      </div>
 
       {/* Certification Section */}
       <h4 className="skills_header">Certification</h4>
