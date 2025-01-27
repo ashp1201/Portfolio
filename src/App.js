@@ -42,7 +42,7 @@ function App() {
       <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="/">
+    <a className="navbar-brand" href="/Portfolio">
     <h4 style={{ letterSpacing: '3px' }}>Portfolio</h4>
     </a>
     <button style={{ outline:'none' ,border:'none',}} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@ function App() {
     <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Home</a>
+          <a className="nav-link active" aria-current="page" href="/Portfolio">Home</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#aboutme">About me</a>
