@@ -8,9 +8,10 @@ import { Visibility} from "@mui/icons-material";
 
 function Starter() {
   const resumeLink =
-    "https://drive.google.com/uc?export=download&id=1SI90_213UjIeIAVar-_QITvEvb_O1jrs";
-    
-    const resumeView ="https://drive.google.com/file/d/1SI90_213UjIeIAVar-_QITvEvb_O1jrs/view?usp=sharing";
+  "https://docs.google.com/document/d/18Q4Y--fOhP8JmewmDqnq5P2B4BhR7Qkn/export?format=pdf";
+
+const resumeView =
+  "https://docs.google.com/document/d/18Q4Y--fOhP8JmewmDqnq5P2B4BhR7Qkn/view";
   const Ashok =
     "https://res.cloudinary.com/dbc7lgjml/image/upload/v1737875966/ashok_cafapf.png";
 
