@@ -30,7 +30,7 @@ function Projects() {
           project_name="Cospace"
           proj_det="Cospace offers virtual office solutions, providing flexible and efficient workspace rentals for remote teams and professionals"
           github_link="https://github.com/ashp1201/Cospace_Mern"
-          project_link="https://cospacess.netlify.app/"
+          project_link="https://cospace-mern-e6rw.vercel.app/"
         />
         <Cards
           img={imgToDoList}
