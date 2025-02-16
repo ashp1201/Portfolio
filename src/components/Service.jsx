@@ -22,7 +22,10 @@ function Service() {
   const cerImg2 = "https://res.cloudinary.com/dbc7lgjml/image/upload/v1737875968/mlsa_cert_m5zjkf.png"; // Add the Cloudinary URL for "Frontend Web Development with Git and GitHub Skills"
   const cerImg3 = "https://res.cloudinary.com/dbc7lgjml/image/upload/v1737875968/python_cert_dfvumc.png"; // Add the Cloudinary URL for "Python Certification"
   const cerImg4 = "https://res.cloudinary.com/dbc7lgjml/image/upload/v1737875966/hackathon_cert_ew9rxt.png"; // Add the Cloudinary URL for "CodeCrush 1.0 Hackathon"
-
+  const cerImg5 = "https://res.cloudinary.com/dbc7lgjml/image/upload/v1739690748/Java_Course_1_g39xgn.jpg"; // Java
+  const cerImg6 = "https://res.cloudinary.com/dbc7lgjml/image/upload/v1739690746/Aws_Course_1_yibk4m.pdf"; //Aws
+  const cerImg7 = "https://res.cloudinary.com/dbc7lgjml/image/upload/v1739690743/React_Js_Free_Course_3_twicza.pdf"; // Reactjs
+  const cerImg8 = "https://res.cloudinary.com/dbc7lgjml/image/upload/v1739690745/LinuxUnhatched2024_2_xhnr0r.pdf"; // Linux
   return (
     <div>
       {/* Header Section */}
@@ -66,6 +69,30 @@ function Service() {
       {/* Certification Section */}
       <h4 className="skills_header">Certification</h4>
       <Box className="margin_flex">
+        <CerCards
+          name="Java Course"
+          link="https://drive.google.com/file/d/1-J7Ed1ZeIUI2vgH4TVHZ0CK9cU9iIbLT/view?usp=sharing"
+          desc={["• Java"]}
+          img={cerImg5}
+        />
+        <CerCards
+          name="Aws Free Course"
+          link="https://drive.google.com/file/d/16QwtQp3Oz4F_jmygcHK9DBwx04EvQpBk/view?usp=drive_link"
+          desc={["• Aws"]}
+          img={cerImg6}
+        />
+        <CerCards
+          name="Reactjs Free Course"
+          link="https://drive.google.com/file/d/1VNyGEhAYKQkaKylntUDdq28dxg-VnpPV/view?usp=sharing"
+          desc={["• React.js", "• MaterialUi"]}
+          img={cerImg7}
+        />
+        <CerCards
+          name="Linux Course"
+          link="https://drive.google.com/file/d/1-8waJ7aQNJhpP2pxHxjHqz4RkPKREn6g/view?usp=drive_link"
+          desc={["• Linux"]}
+          img={cerImg8}
+        />
         <CerCards
           name="Introduction to Front End Development"
           link="https://drive.google.com/file/d/1U4Cn9R33tjpoW-KDg9fDcDNA7HYOAHcS/view?usp=drive_link"
