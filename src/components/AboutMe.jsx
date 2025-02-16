@@ -56,8 +56,9 @@ function About_me() {
           About Me
         </Typography>
         <Typography className="text_info" variant="body1">
-          &nbsp;&nbsp; &nbsp;&nbsp;Hello, I'm Ashok Purohit, a third-year student at SFIT College, deeply passionate about frontend web development. Proficient in HTML, CSS, and JavaScript, I excel in crafting responsive and user-friendly websites. My expertise extends to building reusable components with React.js, and I am committed to continuous learning, striving for growth in the dynamic field of web development.
+  &nbsp;&nbsp; &nbsp;&nbsp;Hello, I'm Ashok Purohit, a final-year student at St. Francis Institute of Technology with a strong passion for software development and cloud technologies. Proficient in React.js, AWS, and the MERN stack, I specialize in building scalable and user-friendly applications. With a keen interest in problem-solving and continuous learning, I am eager to contribute to innovative projects and grow in the ever-evolving tech landscape.
         </Typography>
+
 
         {/* Toggle button group */}
         <Box className="toggle_info">
